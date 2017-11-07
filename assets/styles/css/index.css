@@ -114,22 +114,24 @@ html, body {
   flex-wrap: wrap; }
 
 a.card {
-  max-width: calc(25% - 20px);
+  width: calc(25% - 20px);
   flex-grow: 1;
   position: relative;
   margin: 10px;
-  height: 250px; }
+  height: 250px;
+  width: 100%; }
   @media screen and (max-width: 1020px) {
     a.card {
-      max-width: calc(33.333333% - 20px);
+      width: calc(33.333333% - 20px);
       magin: 10px; } }
   @media screen and (max-width: 920px) {
     a.card {
-      max-width: calc(50% - 20px);
+      width: calc(50% - 20px);
       magin: 10px; } }
   a.card .card-wrap {
     position: relative;
     height: 100px;
+    width: 100%;
     display: inline-block;
     border-radius: 3px;
     background-color: #fff;

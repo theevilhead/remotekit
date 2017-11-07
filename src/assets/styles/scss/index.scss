@@ -185,6 +185,7 @@ html,body{
 
 a.card{
 	max-width: calc(25% - 20px);
+	width: 100%;
 	flex-grow: 1;
 	position: relative;
 	margin: 10px;
@@ -214,6 +215,7 @@ a.card{
 		border-radius: 3px;
 		background-color: #fff;
 		color: #242424;
+		width: 100%;
 		padding:  5px 10px 5px 5px;
 		font-family: 'Lato';
 		text-decoration: none;
